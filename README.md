@@ -1,16 +1,19 @@
-# people_counter
+<hr>
+<h1 align=center>PEOPLE COUNTER</h1>
+<hr>
 
-A new Flutter project.
+<br /><br />
 
-## Getting Started
+<img src="https://raw.githubusercontent.com/CaetanoMatheus/repositories-images/master/people-counter/app-home.png?token=AKHNH2JGO37L7HZVZCRD6SK7XCDGS" height="700" />
 
-This project is a starting point for a Flutter application.
+<br /><br />
 
-A few resources to get you started if this is your first Flutter project:
+## Sobre People Counter
+Uma aplicação mobile desenvolvida com o [Flutter](https://flutter.dev/) durante o estudo do Framework.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Executando
+Para executar a aplicação, garanta que um emulador Adroid ou IOS esteja rodando, ou que um dispositivo real esteja conectado.
+Depois basta rodar o comando:
+```sh
+flutter run
+```

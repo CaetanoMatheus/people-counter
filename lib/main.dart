@@ -8,39 +8,52 @@ class PeopleCounter extends StatelessWidget {
     return MaterialApp(
       title: 'People Counter',
       debugShowCheckedModeBanner: false,
-      home: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
+      home: Stack(
         children: [
-          Text(
-            'Pessoas: 0',
-            style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+          Image.asset(
+            'images/restaurant.jpg',
+            fit: BoxFit.cover,
+            height: double.infinity,
           ),
-          Row(
+          Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              FlatButton(
-                child: Text(
-                  '+1',
-                  style: TextStyle(fontSize: 40, color: Colors.white),
-                ),
-                onPressed: () {},
+              Text(
+                'Pessoas: 0',
+                style:
+                    TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
               ),
-              FlatButton(
-                child: Text(
-                  '-1',
-                  style: TextStyle(fontSize: 40, color: Colors.white),
+              Padding(
+                padding: EdgeInsets.all(10),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    FlatButton(
+                      child: Text(
+                        '+1',
+                        style: TextStyle(fontSize: 40, color: Colors.white),
+                      ),
+                      onPressed: () {},
+                    ),
+                    FlatButton(
+                      child: Text(
+                        '-1',
+                        style: TextStyle(fontSize: 40, color: Colors.white),
+                      ),
+                      onPressed: () {},
+                    ),
+                  ],
                 ),
-                onPressed: () {},
+              ),
+              Text(
+                'Pode entrar!',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontStyle: FontStyle.italic,
+                  fontSize: 30,
+                ),
               ),
             ],
-          ),
-          Text(
-            'Pode entrar!',
-            style: TextStyle(
-              color: Colors.white,
-              fontStyle: FontStyle.italic,
-              fontSize: 30,
-            ),
           ),
         ],
       ),

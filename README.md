@@ -4,7 +4,7 @@
 
 <br /><br />
 
-<img src="https://raw.githubusercontent.com/CaetanoMatheus/repositories-images/master/people-counter/app-home.png?token=AKHNH2JGO37L7HZVZCRD6SK7XCDGS" height="700" />
+<img src="https://raw.githubusercontent.com/CaetanoMatheus/repositories-images/master/people-counter/app-home.png?token=AKHNH2JGO37L7HZVZCRD6SK7XCDGS" height="500" />
 
 <br /><br />
 
